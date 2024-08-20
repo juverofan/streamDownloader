@@ -28,8 +28,6 @@ else:
 		sys.exit("Usage: convertStream.py [URL/m3u8 file] [mp4 filename *optional]\nm3u8 file must be m3u8 extention")
 	elif not m3u8_file.endswith("m3u8"):
 		sys.exit("Usage: convertStream.py [URL/m3u8 file] [mp4 filename *optional]\nm3u8 file must be m3u8 extention")
-#m3u8_To_MP4.multithread_download('http://videoserver.com/playlist.m3u8')
-#m3u8_To_MP4.multithread_file_download('https://hls.vdtuzv.com/videos4/e44faaf9622c783032d64e7c28fbd0a4/e44faaf9622c783032d64e7c28fbd0a4.m3u8?auth_key=1724121678-66c4024e723a2-0-9063fc91f79dabb0d6ae357c5e67f602&v=3&time=0',"test.mp4")
 
 mp4_file = m3u8_file.split(".m3u8")[0]+".mp4"
 if len(sys.argv) >= 3:
