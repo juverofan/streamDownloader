@@ -4,7 +4,7 @@ convert m3u8 to mp4 (from url or m3u8 file) using ffmpeg
 Công cụ convert video (tải video) từ stream (m3u8)
 
 1. First, install ffmpeg - cài đặt ffmpeg trước (https://www.ffmpeg.org/download.html) - Powershell: **choco install ffmpeg**
-2. Using convertStream.py: **python convertStream.py [URL/m3u8 local file] [mp4 output file *optional]**
+2. Using convertStream.py: <i>python convertStream.py [URL/m3u8 local file] [mp4 output file *optional]</i>
 
                                 Donate us
                 BTC: 1Dbu7Hwrmd2iT6xSxKf4rYrYiufukQLAjt
