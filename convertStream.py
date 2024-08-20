@@ -1,4 +1,3 @@
-#from m3u8_to_mp4.m3u8 import M3U8_Playlist
 import os
 import sys
 import random
@@ -37,8 +36,3 @@ if len(sys.argv) >= 3:
 	mp4_file = sys.argv[2]
 
 os.system("ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "+m3u8_file+" -c copy -bsf:a aac_adtstoasc "+mp4_file)
-
-
-#m3u8 = M3U8_Playlist('')
-#m3u8.append_to_segments('https://vz-cea98c59-23c.b-cdn.net/c309129c-27b6-4e43-8254-62a15c77c5ee/842x480/')
-#m3u8.to_mp4('test-2.mp4')
