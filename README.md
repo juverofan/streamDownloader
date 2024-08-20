@@ -16,4 +16,3 @@ Công cụ convert video (tải video) từ stream (m3u8)
 <img src="https://github.com/user-attachments/assets/39b45b1b-1fd3-4e7a-bffc-1aba408918f6" width="30%">
 </div>
 
-<br>Code & demo: https://huggingface.co/spaces/BroTeoTM/VietlottPrediction
